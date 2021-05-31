@@ -44,7 +44,7 @@ function getHardResponse(userText) {
 function getResponse() {
     let userText = $("#textInput").val();
     if (userText == "") {
-        userText = "I Love Code Palace!";
+        userText = "Please Type!";
     }
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
     $("#textInput").val("");
